@@ -124,7 +124,11 @@
     .gpt3__navbar-sign {
         display: none;
     }
-
+    
+    .gpt3__navbar-menu {
+        margin-left: -2rem;
+    }  
+    
     .gpt3__navbar-menu_container {
         top: 20px;
     }

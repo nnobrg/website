@@ -12,7 +12,7 @@ const featuresData = [
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
   {
-    title: 'Lorem ipsum dolor sit amet',
+    title: 'Loreeem ipsum dolor sit amet',
     text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
   },
   {

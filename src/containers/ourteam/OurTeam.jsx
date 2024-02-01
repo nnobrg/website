@@ -1,15 +1,15 @@
 import React from 'react';
 import {Article} from '../../components';
 import {blog02} from './imports';
-import './blog.css';
+import './ourteam.css';
 
-const Blog = () => (
-  <div className="gpt3__blog section__padding" id="ourteam">
-    <div className="gpt3__blog-heading">
+const OurTeam = () => (
+  <div className="blog section__padding" id="ourteam">
+    <div className="blog-heading">
       <h1 className="gradient__text">Our team</h1>
     </div>
-    <div className="gpt3__blog-container">
-      <div className="gpt3__blog-container_groupB">
+    <div className="blog-container">
+      <div className="blog-container_group">
         <Article imgUrl={blog02} text="Alex Matewos Araya" date="about about about Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
         <Article imgUrl={blog02} text="Shekhar Devm Upadhyay" date="about about about Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
         <Article imgUrl={blog02} text="Robert Luciani" date="about about about Lorem ipsum dolor sit amet, consectetur adipiscing elit." />
@@ -20,4 +20,4 @@ const Blog = () => (
   </div>
 );
 
-export default Blog;
+export default OurTeam;

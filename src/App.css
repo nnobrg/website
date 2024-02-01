@@ -20,10 +20,12 @@ a {
   align-items: center;
   flex-direction: row;
 
+  /*
   padding: 2rem;
   margin: 2rem;
   border-radius: 2rem; /*rounded corners*/
  /*^ added that to style the top in a box shap like the one in CTA */
+ 
 
   /* ff 3.6+ */
   background: -moz-radial-gradient(circle at 23% 29%, rgba(18, 137, 203, 1) 0%, rgba(86, 188, 184, 1) 98%);

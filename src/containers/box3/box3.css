@@ -1,9 +1,9 @@
-.information2 {
+.gpt3__possibility {
     display: flex;
     flex-direction: row;
 }
 
-.information2-image {
+.gpt3__possibility-image {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -12,13 +12,13 @@
     margin-right: 2rem;
 }
 
-.information2-image img { /*image size*/
+.gpt3__possibility-image img { /*image size*/
     width: 100%;
     height: 100%;
     border-radius: 2rem;
 }
 
-.information2-content {
+.gpt3__possibility-content {
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -26,7 +26,7 @@
     flex-direction: column;
 }
 
-.information2-content h4 {
+.gpt3__possibility-content h4 {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
@@ -34,11 +34,11 @@
     color: #dcdcdc;
 }
 
-.information2-content h4:last-child { /*last-child to differentiate from the other h4*/
+.gpt3__possibility-content h4:last-child { /*last-child to differentiate from the other h4*/
     color: #dcdcdc;
 }
 
-.information2-content h1 {
+.gpt3__possibility-content h1 {
     font-family: var(--font-family);
     font-weight: 800;
     font-size: 34px;
@@ -46,7 +46,7 @@
     margin: 1rem 0;  /*spacing bwtween the divs*/
 }
 
-.information2-content p {
+.gpt3__possibility-content p {
     color: var(--color-text);
     font-family: var(--font-family);
     font-weight: 400;
@@ -57,26 +57,26 @@
 }
 
 @media screen and (max-width: 950px) {
-    .information2 {
+    .gpt3__possibility {
         flex-direction: column;
     }
 
-    .information2-image {
+    .gpt3__possibility-image {
         margin: 1rem 0;
     }
 
-    .information2-image img {
+    .gpt3__possibility-image img {
         width: unset;
         height: unset;
     }
 
-    .information2-content {
+    .gpt3__possibility-content {
         margin-top: 2rem;
     }
 }
 
 @media screen and (max-width: 700px) {
-    .information2-image img {
+    .gpt3__possibility-image img {
         width: 100%;
         height: 100%;
     }

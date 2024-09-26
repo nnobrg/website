@@ -1,0 +1,25 @@
+.gpt3__brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; /* Add space between flex items */
+}
+
+.gpt3__brand div {
+    flex: 0 1 180px; /* Allow items to grow or shrink within a base width of 180px */
+    max-width: 200px; /* Adjust max width for larger images */
+    min-width: 140px; /* Adjust min width as needed */
+    margin: 1rem; /* Space around each flex item */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.teez__brand img {
+    width: 180px; /* Set a larger width */
+    height: auto; /* Maintain aspect ratio by adjusting height automatically */
+    opacity: 0.8;
+    object-fit: contain; /* Ensure the image fits within its container without distortion */
+}

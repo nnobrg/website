@@ -1,8 +1,9 @@
 .gpt3__cta {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-direction: row;
+    gap: 20rem; /* Adjust the space between content and button */
 
     padding: 2rem;
     padding-bottom: 5rem;
@@ -31,18 +32,10 @@
 
 .gpt3__cta-content {
     display: flex;
-    flex-direction: column;
-
-    text-align: left;
+    text-align: right;
     color: #fff;
 }
 
-.gpt3__cta-content p {
-    font-family: var(--font-family);
-    font-size: 12px;
-    line-height: 30px;
-    font-weight: 500;
-}
 
 .gpt3__cta-content h3 {
     font-family: var(--font-family);
@@ -54,9 +47,9 @@
 .gpt3__cta-btn {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
 
-    margin-left: 2rem;
+
 }
 
 .gpt3__cta-btn button {
@@ -75,9 +68,17 @@
     min-width: 150px;
 }
 
+@media screen and (max-width: 810px) {
+    .gpt3__cta {
+        flex-direction: column;
+        gap: 0rem;
+    }
+}
+
 @media screen and (max-width: 650px) {
     .gpt3__cta {
         flex-direction: column;
+        gap: 0rem;
     }
 
     .gpt3__cta-btn {
@@ -89,6 +90,7 @@
     .gpt3__cta {
         flex-direction: column;
         margin: 4rem 2rem;
+        gap: 0rem;
     }
 
     .gpt3__cta-content h3 {

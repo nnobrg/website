@@ -20,12 +20,10 @@ a {
   align-items: center;
   flex-direction: row;
 
-  /*
-  padding: 2rem;
-  margin: 2rem;
+  padding: 1rem; /*inner padding*/
+  margin: 3rem; /*outer box padding 1st gradient box*/
   border-radius: 2rem; /*rounded corners*/
  /*^ added that to style the top in a box shap like the one in CTA */
- 
 
   /* ff 3.6+ */
   background: -moz-radial-gradient(circle at 23% 29%, rgba(18, 137, 203, 1) 0%, rgba(86, 188, 184, 1) 98%);
@@ -51,12 +49,12 @@ a {
     -webkit-text-fill-color: transparent;
 }
 
-.section__padding {
+.box1__padding {
     padding: 4rem 6rem;
 }
   
-.section__margin {
-    margin: 4rem 6rem;
+.box2__margin {
+    margin: 4rem 3rem;
 }
   
 .scale-up-center {
@@ -87,21 +85,21 @@ a {
 }
   
 @media screen and (max-width: 700px) {
-    .section__padding {
+    .box1__padding {
       padding: 4rem;
     }
   
-    .section__margin {
+    .box2__margin {
       margin: 4rem;
     }
 }
   
 @media screen and (max-width: 550px) {
-    .section__padding {
+    .box1__padding {
       padding: 4rem 2rem;
     }
   
-    .section__margin {
+    .box2__margin {
       margin: 4rem 2rem;
     }  
 }

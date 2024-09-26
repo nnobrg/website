@@ -1,0 +1,92 @@
+.box2__base {
+    display: flex;
+    flex-direction: column;
+    border-radius: 2rem; /*rounded corners*/
+    padding: 2rem;
+    background: var(--color-footer);
+
+
+    /* ff 3.6+ */
+    background: -moz-linear-gradient(182deg, rgba(86, 188, 184, 1) 0%, rgba(18, 137, 203, 1) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-linear-gradient(182deg, rgba(86, 188, 184, 1) 0%, rgba(18, 137, 203, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-linear-gradient(182deg, rgba(86, 188, 184, 1) 0%, rgba(18, 137, 203, 1) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1289CB', endColorstr='#56BCB8', GradientType=1 );
+
+    /* ie 10+ */
+    background: -ms-linear-gradient(182deg, rgba(86, 188, 184, 1) 0%, rgba(18, 137, 203, 1) 100%);
+
+    /* global 94%+ browsers support */
+    background: linear-gradient(182deg, rgba(86, 188, 184, 1) 0%, rgba(18, 137, 203, 1) 100%);
+}
+
+.box2__heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; /* Centers the h1 element horizontally */
+    
+    margin: 2rem 3rem 1rem 3rem; /*This sets the outer spacing around the .box2_heading element.*/
+}
+
+.box2__heading h1 {/* css for the actual heading text */
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    
+}
+
+.box2__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /*centers the element horizontally */
+    margin: 1rem 3rem 2rem 3rem; /*The values represent the margins in the following order: top, right, bottom, left.*/
+}
+
+.box2__text div { /*the gradient line above the text*/
+    width: 60px;
+    height: 3px;
+    background: var(--gradient-bar);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 1rem;
+}
+
+.box2__text h1 {
+    font-family: var(--font-family);
+    font-weight: 400; /*font boldness*/
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center; /* Center-aligns text inside the container */
+}
+
+
+@media screen and (max-width: 850px) {
+    .box2__heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .box2__heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .box2__heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+ 
+}

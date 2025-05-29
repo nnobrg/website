@@ -1,5 +1,5 @@
 import React from 'react';
-import {kth, netlight, aiframework } from './imports';
+import {kth, netlight, foretagarna } from './imports';
 import './logos.css';
 
 const Brand = () => (
@@ -8,7 +8,7 @@ const Brand = () => (
       <img src={kth} alt="kth" />
     </div>
     <div className="teez__brand">
-      <img src={aiframework} alt="aiframework" />
+      <img src={foretagarna} alt="foretagarna" />
     </div>
     <div className="teez__brand">
       <img src={netlight} alt="netlight" />

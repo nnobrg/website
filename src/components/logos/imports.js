@@ -1,9 +1,9 @@
 import netlight from '../../assets/Netlight.png';
 import kth from '../../assets/kth.jpg';
-import aiframework from '../../assets/theaiframework.png';
+import foretagarna from '../../assets/foretagarna.png';
 
 export {
   netlight,
   kth,
-  aiframework,
+  foretagarna,
 };
